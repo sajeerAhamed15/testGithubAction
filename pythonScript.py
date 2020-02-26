@@ -10,3 +10,8 @@ outputFile_rel = baseDir + subDir + outputJson_rel
 os.makedirs(os.path.dirname(outputFile_rel), exist_ok=True)
 with open(outputFile_rel, "w") as f:
     f.write("hihihih")
+    print ("done")
+
+print ("totally done")
+
+
